@@ -1,0 +1,52 @@
+ .serv-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edu{
+    background: #111;
+    
+	background-image: radial-gradient(circle at center, rgb(44, 42, 42) 0%, #222 10%, black 60%);
+    color: #fff;
+}
+.edu .title::before,.teams .title::before{
+    background: #fff;
+}
+.edu .title::after,.teams .title::after{
+    background: #111;
+    content: "my schooling";
+}
+.edu .serv-content .card{
+    width: calc(40% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin:20px;
+}
+.edu .serv-content .card:hover{
+    background: crimson;
+}
+.edu .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.edu .serv-content .card:hover .box{
+    transform: scale(0.99);
+}
+.edu .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.edu .serv-content .card:hover i{
+    color: #fff;
+}
+.edu .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
