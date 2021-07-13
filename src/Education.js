@@ -18,13 +18,13 @@ export default function Education() {
                 <div class="card">
                     <div class="box">
                         <div class="text"><h1>Intermediate</h1></div>
-                        <h3>Shri J.N. Shah Memorial Pulic Inter College</h3>
+                        <h3>Shri J.N. Shah Memorial Public Inter College</h3>
                         <p>ISC | 2017 | 88% </p>
                     </div>
                 </div><div class="card">
                     <div class="box">
                         <div class="text"><h2>High School</h2></div>
-                        <h3>Shri J.N. Shah Memorial Pulic Inter College</h3>
+                        <h3>Shri J.N. Shah Memorial Public Inter College</h3>
                         <p>ICSE | 2015 | 88%                        </p>
                     </div>
                 </div>
