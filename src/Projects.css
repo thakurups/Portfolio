@@ -30,8 +30,19 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .6s ease;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transition: .9s ease;
     background-color: #0d0d0d;
+}
+.projects .overlay:hover{
+    opacity: 0.9;
+}
+.pro-contain >.projects > .card1 > .overlay >span{
+    font-size: 10px;
 }
 .card1 {
     animation: fadeIn;
@@ -49,4 +60,14 @@
 .card1:hover{
     transform: scale(1.1);
     transition: 2000ms;
+}
+#pro1{
+    background-image: url(./images/pro1img.png);
+    background-size: cover;
+}#pro2{
+    background-image: url(./images/pro2img.png);
+    background-size: cover;
+}#pro3{
+    background-image: url(./images/pro3img.png);
+    background-size: cover;
 }
