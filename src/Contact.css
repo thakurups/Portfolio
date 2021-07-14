@@ -132,3 +132,11 @@
     background:none;
     color: crimson;
 }
+@media (max-width:600px){
+    .contact-content{
+        flex-direction: column;
+    }
+    .column-left{
+        width: 100%;
+    }
+}

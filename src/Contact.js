@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="max-width">
             <h2 className="title">Contact Me</h2>
             <div className="contact-content">
-                <div className="column left">
+                <div className="column-left">
                     <div className="text">Get in Touch</div>
                     <p></p>
                     <div className="icons">
