@@ -1,8 +1,10 @@
- .serv-content{
+ .edu .serv-content{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    /* border:solid pink; */
 }
 
 .edu{
@@ -27,6 +29,10 @@
     cursor: pointer;
     transition: all 0.3s ease;
     margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .edu .serv-content .card:hover{
     background: crimson;
@@ -49,4 +55,16 @@
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+@media (min-width: 700px) and (max-width: 1090px){
+    .edu .serv-content .card{
+        height: 250px;
+        display: flex;
+       }
+}
+@media (max-width: 550px){
+    .edu .serv-content .card{
+        height: 250px;
+        width: 450px;
+       }
 }
