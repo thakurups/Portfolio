@@ -71,3 +71,10 @@
     background-image: url(./images/pro3img.png);
     background-size: cover;
 }
+
+@media  (max-width: 400px){
+    .card1{
+    height: 180px;
+    width: 280px;}
+
+}
